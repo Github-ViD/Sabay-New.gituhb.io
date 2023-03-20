@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/CSS-style/Project-1-Sabay.css">
+
+    <!-- Demo styles -->
+</head>
+<body>
+    <div class="header">
+        <div class="image-1-sabay">
+            <img src="/Image-style/LoGo-Sabay-New.JPG" alt="">
+        </div>
+        <div class="image-2-sabay">
+            <img src="/Image-style/LoGo-Animetion.jpg" alt="">
+        </div>
+    </div>
+    <!-- ------------------------ Clip Puth-1 ------------------------  -->
+    <div class="border-style"
+        style="margin: auto; margin-top: 30px; width: 102.30rem; height: 6vh; display: flex; border-bottom: 0.2rem solid red;">
+        <div class="box-width" style="width: 8rem; height: 6vh; background-color: red">
+            <p class="style-clip-puth" style="color: white; font-family: 'Khmer Os batambang'; font-weight: bold; margin-top: 12px; margin-left: 22px; font-size: 25px;">កម្សាន្ត<ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+        <div class="clip-puth"
+            style="width: 6rem; height: 6.30vh;  background-color: red;   clip-path: polygon(0 0 , 0 0 , 100% 100% , 0% 100%); color: white;">
+        </div>
+    </div>
+    <!-- ------------------------End of Clip Puth ------------------------  -->
+    <div class="container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box-1">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+</body>
+<!-- Swiper JS -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+</html>
